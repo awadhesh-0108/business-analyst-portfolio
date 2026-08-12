@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+
+    <resources base="https://91d81573trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com">
+        <resource path="/http/READ-S4-DATA">
+            <method name="GET">
+                <response status="200">
+                    <representation mediaType="application/atom+xml"/>
+                </response>
+            </method>
+        </resource>
+    </resources>
+
+</application>
