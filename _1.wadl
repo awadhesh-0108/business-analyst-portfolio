@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <doc xml:lang="en" title="https://91d81573trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com"/>
+  <resources base="https://91d81573trial.it-cpitrial06-rt.cfapps.us10-001.hana.ondemand.com">
+    <resource path="http/READ-S4_DATA" id="READ-S4_DATA">
+      <doc xml:lang="en" title="READ-S4_DATA"/>
+      <method name="GET" id="READ-S4_DATA 1">
+        <doc xml:lang="en" title="READ-S4_DATA 1"/>
+        <request/>
+        <response status="200">
+          <representation mediaType="application/atom+xml;type=feed;charset=utf-8"/>
+        </response>
+      </method>
+    </resource>
+  </resources>
+</application>
